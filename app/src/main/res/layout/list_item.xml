@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/judul"
+        android:text="Judul"
+        style="@style/style_judul" />
+
+    <TextView
+        android:id="@+id/subJudul"
+        android:text="Sub Judul"
+        style="@style/style_subjudul" />
+</LinearLayout>
